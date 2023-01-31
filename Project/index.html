@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .menu{
+                display:inline-block; 
+                border-color: white; 
+                color: rgb(111, 187, 235); 
+                margin-right: 10px; 
+                font-family: 'Caveat Brush', cursive; 
+                font-size: 40px; 
+                border-style: dashed; 
+                padding: 10px;
+                transition: transform 1s, color 1s;                
+            }
+            .menu:hover{
+                color: black ;
+                transform: scale(1.2);
+                background-color: white;
+                
+            }
+            .footer {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                text-align: center;
+            }
+            div.fixed {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                width: 70px;
+                height: 70px;
+                margin: 20px;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div style=" width:100%; height: 1200px; background-image: url(images/bg-op1.jpg); background-repeat: no-repeat; background-attachment:fixed; background-color: black; background-position: center;">
+            <div>
+                <img id="Logo_main" src="images/logo2.gif" style="height: 150px; margin: 20px;">
+            </div>
+            <div style="width:1200px; margin: 0 auto; ">
+                <div style="font-family: 'Caveat Brush', cursive; text-align: center; font-size: 120px; color: white;">
+                    ONE PIECE DICTIONARY
+                </div>
+                <div style="text-align: center; margin: 20px;">
+                    <div class="menu">
+                        <a href="pj-pirates.html" style="text-decoration:none; color: lightskyblue;">PIRATE</a>
+                    </div>
+                    <div class="menu">
+                        <a href="pj-marine.html" style="text-decoration:none; color: lightskyblue;">MARINE</a>
+                    </div>
+                    <div class="menu">
+                        <a href="pj-revol.army.html" style="text-decoration:none; color: lightskyblue;">REVOLUTIONARY ARMY</a>
+                    </div>
+                    <div class="menu">
+                        <a href="pj-map.html" style="text-decoration:none; color: lightskyblue;">MAP</a>
+                    </div>
+                    <div class="menu">
+                        <a href="pj-devilfruit.html" style="text-decoration:none; color: lightskyblue;">DEVIL FRUITS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div style="text-align: center;">
+                    <img src="images/logo2.gif" style="height: 50px; vertical-align: middle;">
+                    <span style="display: inline-block; color: white; font-size: 35px; margin: 0px; vertical-align: middle;"> OP_DIC</span>
+                </div>
+                <div>
+                    <p style="font-family: 'Caveat Brush', cursive; font-size: 25px;"> FOLLOW US </p>
+                    <img src="images/icon-fb.png" style="height: 50px; margin: 0 10px;">
+                    <img src="images/icon-twi.png" style="height: 50px; margin: 0 10px;">
+                    <img src="images/icon-yt.webp" style="height: 50px; margin: 0 10px">
+                    <img src="images/logo-ins.png" style="height: 50px; margin: 0 10px;">
+                    <p style="font-family: 'Caveat Brush', cursive; font-size: 15px;"> COPYRIGHT BY EIICHIRO ODAA </p>
+                    <div class="fixed"> <a href="#Logo_main"> <img src="images/logoa1.png" style="width: 100%"> </a> </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
